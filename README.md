@@ -1,7 +1,7 @@
 # Projet 8 - Participer à la conception d'une voiture autonome
 
 ## Description
-Dans le cadre de ce projet de Data Science, je dois participer à la conception d'un système de vision par ordinateur pour des voitures autonomes. Mon rôle consistera à concevoir un modèle de segmentation d'images qui sera intégré dans la chaîne complète du système embarqué. Pour cela, j'utiliserai le jeu de données Cityscapes et utiliserai des techniques d'augmentation de données pour entraîner un modèle de Deep Learning. Je devrai également évaluer le modèle en utilisant des métriques appropriées, comparer un modèle de référence et optimiser les hyperparamètres pour obtenir les meilleures performances possibles. Le modèle est déployé sous la forme d'une API REST
+Dans le cadre de ce projet de Data Science, je dois participer à la conception d'un système de vision par ordinateur pour des voitures autonomes. Mon rôle consistera à concevoir un modèle de segmentation d'images qui sera intégré dans la chaîne complète du système embarqué. Pour cela, j'utiliserai le jeu de données Cityscapes et utiliserai des techniques d'augmentation de données pour entraîner un modèle de Deep Learning. Je devrai également évaluer le modèle en utilisant des métriques appropriées, comparer un modèle de référence et optimiser les hyperparamètres pour obtenir les meilleures performances possibles. Le modèle est déployé sous la forme d'une API REST. Une page web permettant d'envoyer une image à l'API et d'afficher le resultat a également été déployée.
 
 ## Objectifs
 - Entraîner un modèle de Deep Learning sur des images et évaluer ses performances.
@@ -21,6 +21,7 @@ Dans le cadre de ce projet de Data Science, je dois participer à la conception 
 - VGG16
 - cuda
 - AWS EC2
+- FastAPI
 - uvicorn
 
 
